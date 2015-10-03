@@ -1,0 +1,7 @@
+body {
+	background-image: url('/images/sponsor.png');
+}
+
+body::-webkit-scrollbar {
+	width: 0px;
+}

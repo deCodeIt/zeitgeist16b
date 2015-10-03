@@ -1,0 +1,203 @@
+/*@font-face {
+    font-family: familiar;
+    src: url('./fonts/familiar.otf');
+}
+*/
+body {
+	margin: 0px;
+}
+
+.onload {
+	display: none;
+}
+
+.loader {
+	background-color: black;
+}
+
+.loadimage {
+	position: fixed;
+	background-image: url('/images/loaderimage.png');
+	background-size: contain;
+	height: 15vh;
+	width: 15vh;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+.preload {
+	display: none;
+}
+
+.navbar {
+	display: block;
+	position: fixed;
+	top: 0px;
+	height: 55px;
+	width: 100vw;
+	background-color: rgba(0,0,0,0);
+	z-index: 10;
+}
+
+.fillleft {
+	display: block;
+	position: absolute;
+	left: 0px;
+	height: 100%;
+	width: calc(50vw - 92px);
+	transition: background-color 0.6s;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.fillright {
+	display: block;
+	position: absolute;
+	right: 0px;
+	height: 100%;
+	width: calc(50vw - 92px);
+	transition: background-color 0.6s;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.navcont {
+	position: relative;
+	/*height: 100%;*/
+	width: 960px;
+	top: 0px;
+	bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navelemtext {
+	transition: color 0.5s ease;
+	line-height: 50px;
+	margin: 0px;
+	color: white;
+	font-size: 110%;
+	font-family: arial;
+	text-align: center;
+}
+
+.navelem {
+	transition: border-bottom 0.5s ease;
+	display: inline-block;
+	height: 50px;
+	border-bottom: 5px solid rgba(255,255,255,0);
+}
+
+.navelem:hover {
+	transition: border-bottom 0.5s ease;
+	border-bottom: 5px solid white;
+}
+
+.navhometext {
+	color: rgba(0,0,0,0);
+}
+
+.navhome {
+	width: 22%;
+	height: 80px;
+	background-image: url('/images/logo.png');
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.navhome:hover {
+	border-bottom: 5px solid rgba(255,255,255,0);
+}
+
+.navblogtext {
+}
+
+.navblog {
+	width: 8%;
+	height: 55px;
+	border: 5px solid rgba(255,255,255,1);
+	box-sizing: border-box;
+}
+
+.naveventstext {
+}
+
+.navevents {
+	width: 10%;
+}
+
+.navgallerytext {
+}
+
+.navgallery {
+	width: 14%;
+}
+
+.navsponsorstext {
+}
+
+.navsponsors {
+	width: 15%;
+}
+
+.navteamtext {
+}
+
+.navteam {
+	width: 8%;
+}
+
+.navupdatestext {
+}
+
+.navupdates {
+	width: 10%;
+}
+
+.navcamambtext {
+}
+
+.navcamamb {
+	width: 21%;
+}
+/*
+.zeitgeistdiv {
+	right: 20px;
+	top: 70px;
+	display: block;
+	position: absolute;
+}
+
+.zeitgeistp {
+	color: white;
+	font-size: 500%;
+	font-family: "Arial Black";
+	margin: 0px;
+}
+*/
+
+.copyright {
+	height: 60px;
+	width: 100%;
+	background-color: rgba(34,42,53,1);
+}
+
+.copyrighttext {
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-size: 120%;
+	line-height: 60px;
+}
+
+.section {
+	left: 0px;
+	right: 0px;
+}
+
+.fullpage {
+	height: 100vh;
+}

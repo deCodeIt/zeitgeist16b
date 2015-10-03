@@ -1,0 +1,43 @@
+body::-webkit-scrollbar {
+	width: 0px;
+}
+
+.cultural {
+	position: relative;
+	margin: 0px;
+	display: inline-block;
+	width: 50%;
+	background-image: url('/images/cultback.png');
+	background-size: cover;
+	background-position: calc(15% + 20px) 40px;
+	transition: width 0.6s;
+}
+
+.technical {
+	position: relative;
+	margin: 0px;
+	display: inline-block;
+	width: 50%;
+	background-image: url('/images/techback.png');
+	background-size: cover;
+	background-position: calc(85% + 60px) center;
+	transition: width 0.6s;
+}
+
+.techstrip {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	top: 55px;
+	background-image: url('/images/techtext.png');
+	background-position: center center;
+}
+
+.cultstrip {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	bottom: 0px;
+	background-image: url('/images/culttext.png');
+	background-position: center center;
+}
