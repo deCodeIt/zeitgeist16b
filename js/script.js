@@ -128,6 +128,11 @@ $(document).keydown(function(event) {
 	return true;
 });
 
+$('.scrollarrow').click(function() {
+	console.log('fuck');
+	$.scrollDn();
+});
+
 imgnum=6;
 imgpos="left top";
 heroshow=1;
