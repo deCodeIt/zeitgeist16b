@@ -1,0 +1,113 @@
+body {
+  background-image: url('/images/updatebackclear.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+@media screen and (min-width: 40em) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.container {
+  padding: 1em;
+  margin-top: 55px;
+  min-height: 100vh;
+}
+
+.timeline {
+  position: relative;
+  overflow: auto;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 5px;
+  background-image: url('/images/updateback.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  left: 0;
+}
+.timeline h2 {
+  background-image: url('/images/updateback.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  max-width: 10em;
+  margin: 0 auto 1em;
+  padding: 0.5em;
+  text-align: center;
+  position: relative;
+  clear: both;
+}
+.timeline ul {
+  list-style: none;
+  padding: 0 0 0 1em;
+  z-index: 1;
+}
+.timeline li {
+  background-image: url('/images/updateback.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 1em;
+  margin-bottom: 1em;
+  position: relative;
+}
+.timeline li:before {
+  content: '';
+  width: 0;
+  height: 0;
+  /*border-image-source: url('/images/updateback.png');*/
+  /*border-top: 1em solid #dddddd;*/
+  border-left: 1em solid transparent;
+  position: absolute;
+  left: -1em;
+  top: 0;
+}
+.timeline h3 {
+  margin-top: 0;
+}
+.timeline time {
+  font-style: italic;
+}
+
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline ul {
+    padding-left: 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .timeline li {
+    max-width: 44%;
+  }
+  .timeline li:nth-child(even) {
+  	display: inline-block;
+  	float: left;
+    left: 50%;
+    margin-top: 2em;
+  }
+  .timeline li:nth-child(odd) {
+    float: right;
+  	display: inline-block;
+    right: 50%;
+  }
+  .timeline li:nth-child(odd):before {
+    /*border-image-source: url('/images/updateback.png');*/
+    /*border-top: 1em solid #dddddd;*/
+    border-right: 1em solid transparent;
+    right: -1em;
+    left: auto;
+  }
+  .timeline li/*:nth-of-type(2n+1)*/ {
+    clear: both;
+  }
+}

@@ -30,7 +30,9 @@ body::-webkit-scrollbar {
 	width: 100%;
 	top: 55px;
 	background-image: url('/images/techtext.png');
+	background-size: cover;
 	background-position: center center;
+	opacity: 0.5;
 }
 
 .cultstrip {
@@ -39,5 +41,7 @@ body::-webkit-scrollbar {
 	width: 100%;
 	bottom: 0px;
 	background-image: url('/images/culttext.png');
+	background-size: cover;
 	background-position: center center;
+	opacity: 0.7;
 }
