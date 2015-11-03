@@ -4,7 +4,9 @@
 }
 
 body {
-	background-image: url('/images/sponsor.png');
+/*	background-image: url('/images/sponsor.png');*/
+    	background-color: rgba(170,90,227,0.1);
+
 }
 
 body::-webkit-scrollbar {
