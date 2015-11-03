@@ -1,3 +1,8 @@
+@font-face {
+    font-family: DistPro;
+    src: url('../fonts/DistProTh.otf');
+}
+
 body {
 	background-image: url('/images/sponsor.png');
 }
@@ -6,5 +11,20 @@ body::-webkit-scrollbar {
 	width: 0px;
 }
 .mySponsorTable {
-    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin: 0;
+    padding-top: 0;
+}
+
+.sponsorHeading {
+    text-align: center;
+    padding-top: 5vh;
+    margin: 0;
+
+    /* get a cool font */
+    font-family: DistPro;
+}
+
+h1 {
+    font-size: 5em;
 }
