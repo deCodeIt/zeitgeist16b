@@ -10,19 +10,16 @@ body {
 body::-webkit-scrollbar {
 	width: 0px;
 }
-.mySponsorTable {
-    padding-bottom: 10vh;
-    margin: 0;
-    padding-top: 0;
-}
+
 
 .sponsorHeading {
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 8vh;
     margin: 0;
 
     /* get a cool font */
     font-family: DistPro;
+    margin-bottom: -8vh;
 }
 
 h1 {
