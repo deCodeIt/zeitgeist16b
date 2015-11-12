@@ -111,7 +111,7 @@ body {
 	height: 3%;
 	left: 50%;
 	margin-left: -2.5%;
-	top: 92%;
+	top: 80vh;
 	background-image: url('/images/scrollarrow.png');
 	background-size: contain;
 	background-position: center center;
