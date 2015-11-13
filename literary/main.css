@@ -198,7 +198,7 @@
 }
 
 h1 {
-    color: #EEEEEE;
+    color: #fff;
 }
 
 #content {
@@ -281,7 +281,7 @@ h1 {
   height: 100%;
   width: -webkit-calc(100% - 4px);
   width: calc(100% - 4px);
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(159, 168, 218, 0.8);
   }
 .cd-side-navigation ul {
   height: 100%;
@@ -301,10 +301,10 @@ h1 {
   display: block;
   position: relative;
   padding: 2em 0 1.5em;
-  font-size: 1.0rem;
+  font-size: 0.86rem;
   text-align: center;
   color: #4a5261;
-  border-right: 5px solid rgba(0,0,0,0);
+  border-right: 5px solid rgba(255,255,255,0);
   transition: background-color 0.6s;
   -webkit-transition: background-color 0.2s, color 0.2s;
   -moz-transition: background-color 0.2s, color 0.2s;
@@ -346,8 +346,8 @@ h1 {
   
 }
 
-.cd-side-navigation li.active{
-  background-color: black;
+.cd-side-navigation li.active a{
+  background-color: rgba(255,255,255,1);
   transition: background-color .2s ease-out;
   -moz-transition: background-color .2s ease-out;
   -webkit-transition: background-color .2s ease-out;
