@@ -64,7 +64,9 @@ h1{
 
 }
 p{
-	font-size: 2em;
+	font-size: 2em;        
+    color: aliceblue;
+
 }
 .intro p{
 	width: 50%;
