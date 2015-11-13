@@ -354,3 +354,6 @@ h1 {
   -o-transition: background-color .2s ease-out;
   
 }
+h2 {
+    color: #fff;   
+}
