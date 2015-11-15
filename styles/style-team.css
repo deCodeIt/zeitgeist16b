@@ -5,7 +5,7 @@ body,html{
 }
 .bg-team
 {
-	background-image: url('/images/team/team_new.jpg');
+	background-image: url('/images/team/white-bg.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
