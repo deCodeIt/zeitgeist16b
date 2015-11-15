@@ -7,10 +7,46 @@
     <meta name="author" content="IIT Ropar">
 
 	<title>Zeitgeist - Team</title>
+	
 	<link rel="stylesheet" type="text/css" href="./styles/styles.css">
-</head>
-<body>
+	<link rel="stylesheet" type="text/css" href="./styles/style-team.css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  	<script src="./bootstrap/js/jquery.min.js"></script>
+  	<script src="./bootstrap/js/bootstrap.min.js"></script>
 
+  	<!-- Enable the script below for smooth scrolling BEWARE bootstrap will be lost-->
+  	<script src="./bootstrap/js/jquery.smoothscroll.js"></script>
+
+  	<script type="text/javascript">
+      
+    $(function(){
+	    $.fn.fitToWidth=function(){
+	    $(this).wrapInner("<span style='display:inline;font:inherit;white-space:inherit;'></span>").each(function(){
+		        var $t=$(this);
+		        var a=$t.outerWidth(),
+		            $s=$t.children("span"),
+		            f=parseFloat($t.css("font-size"));
+		        while($t.children("span").outerWidth() > a) $t.css("font-size",--f);
+		        $t.html($s.html());
+		    });
+		};
+		$(window).on('resize', function(){
+      		$(".member-name .description").fitToWidth();
+		});
+
+	});
+    
+	</script>
+
+	<script type="text/javascript">
+	
+</script>
+</head>
+<body class="team-body">
+
+
+<div class="bg-team">
+<section>
 <div class="navbar section">
 	<div class="fillleft"></div>
 	<div class="fillright"></div>
@@ -38,13 +74,383 @@
 		--></a>
 	</div>
 </div>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Co-Ordinators</p></center>
+	</div>
+	<div class="col-sm-6 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/swapnil.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description" id="dss">
+					Swapnil Rai
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/prashant.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Prashant
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Marketing Team</p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/vishal.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Vishal Gupta
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/archit.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Archit Aggarwal
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/zinia.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Zinnia Rao
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/sankarshan.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Sankarshan Verma
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/prateek.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Prateek Raina
+				</p>
+			</div>
+		</div>
+	</div>
 
-<div class="copyright">
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Social Initiative</p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/viren.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Viren Aggarwal
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/akshay.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Akshay Dahiya
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/nancy.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Nancy Balhara
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Event Management</p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/lokesh.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Lokesh Patel
+				</p>
+				<p class="description">
+					(Music Events)
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/abhay.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Abhay Singh Tomar
+				</p>
+				<p class="description">
+					(Dance Events)
+				</p>
+ 			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/harpreet.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Harpreet Singh
+				</p>
+				<p class="description">
+					(Dramatics)
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/shubham.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Shubham Kumar
+				</p>
+				<p class="description">
+					 (Fashion Event)
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/santosh.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Santosh
+				</p>
+				<p class="description">
+					 (Tital - The Strong Man)
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/kshitij.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Kshitij Aggarwal
+				</p>
+				<p class="description">
+					 (Pro Nights)
+				</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Hospitality Team</p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/aseem.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Aseem Garg
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/randhir.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Randhir Swarnkar
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/harbir.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Harbir
+				</p>
+			</div>
+		</div>
+	</div>	
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Creativity </p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/avijit.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Avijit Sinha
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/vaibhav.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Vaibhav Chauhan
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/kartik.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Kartik Gupta
+				</p>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</section>
+<section>
+<div class="container team-container">
+	<div class="team-category">
+		<center><p>Web Dev Team</p></center>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/ananya.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Ananya Kirti
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/ali.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Ali Jafri
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-4 member-container">
+		<div>
+			<div class="member-pic">
+				<img src="./images/team/modi.jpg" class="member-img">
+			</div>
+			<div class="member-name">
+				<p class="description">
+					Anil Modi
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="copyright">
 	<p class="copyrighttext">&copy; Copyright Zeitgeist <script language="JavaScript" type="text/javascript">
     document.write(((new Date).getYear())<1900?((new Date).getYear())+1900:((new Date).getYear()));</script></p>
 </div>
+	</section>
+</div>
 
-<script src="js/jquery-1.11.3.js"></script>
+
+
 
 </body>
 </html>

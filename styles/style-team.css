@@ -1,0 +1,55 @@
+body,html{
+	/*overflow: hidden;*/
+	margin:0;
+    padding:0;
+}
+.bg-team
+{
+	background-image: url('/images/team/team_new.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.team-container
+{
+	margin-top: 50px !important;
+	height:91%;
+}
+.member-container
+{
+	margin:40px 0px;
+}
+.member-container>div
+{
+	margin:0 auto;
+	max-height: 200px;
+	max-width:200px;
+}
+.team-category
+{
+	width:100%;
+}
+.team-category p
+{
+	font-size: 48px;
+}
+.member-pic
+{
+	margin:auto;
+}
+.member-img
+{
+	width:100%;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.member-name
+{
+	width:100%;
+	text-align: center;
+}
+.member-name .description
+{
+	font-size:24px;
+	white-space:nowrap;
+}
