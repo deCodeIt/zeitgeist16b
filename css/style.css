@@ -58,11 +58,9 @@ a {
   width: 90%;
   max-width: 768px;
   text-align: center;
+    margin: 4em auto;
 }
 
-.cd-intro {
-  margin: 4em auto;
-}
 @media only screen and (min-width: 768px) {
   .cd-intro {
     margin: 5em auto;
@@ -76,7 +74,7 @@ a {
 
 .cd-headline {
   font-size: 3rem;
-  line-height: 1.2;
+/*  line-height: 1.2;*/
 }
 @media only screen and (min-width: 768px) {
   .cd-headline {
@@ -86,7 +84,7 @@ a {
 }
 @media only screen and (min-width: 1170px) {
   .cd-headline {
-    font-size: 6rem;
+    font-size: 10rem;
   }
 }
 
@@ -306,7 +304,7 @@ xtype
   transform: translateY(-50%);
   height: 90%;
   width: 1px;
-  background-color: #aebcb9;
+  background-color: #fff;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
@@ -1270,18 +1268,25 @@ xpush
 
 #maintext {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
-  top: 50%;
+  top: 40vh;
   left: -10%;
+/*
   text-shadow:
    -1px -1px 0 rgba(0,0,0,0.8),  
     1px -1px 0 rgba(0,0,0,0.8),
     -1px 1px 0 rgba(0,0,0,0.8),
      1px 1px 0 rgba(0,0,0,0.8);
+*/
 }
 
 .cd-headline {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,1);
 
+}
+
+
+.filter-ananya{
+        -webkit-filter: blur(100px);
 }
